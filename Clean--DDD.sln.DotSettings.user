@@ -3,4 +3,5 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::EFCDE24E-10A4-4D43-9366-C264839FB976::net6.0::Architecture.Test.ArchitectureTests.Domain_Should_Not_Have_Dependency_On_Other_Projects&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Mediato/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
