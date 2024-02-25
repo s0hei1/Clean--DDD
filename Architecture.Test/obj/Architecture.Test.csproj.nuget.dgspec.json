@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Architecture.Test\\Architecture.Test.csproj": {}
+    "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Architecture.Test\\Architecture.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Application\\Application.csproj": {
+    "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\S.Hesari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Soheil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\S.Hesari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Soheil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -45,10 +49,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -57,21 +80,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Architecture.Test\\Architecture.Test.csproj": {
+    "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Architecture.Test\\Architecture.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Architecture.Test\\Architecture.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Architecture.Test\\Architecture.Test.csproj",
         "projectName": "Architecture.Test",
-        "projectPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Architecture.Test\\Architecture.Test.csproj",
-        "packagesPath": "C:\\Users\\S.Hesari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Architecture.Test\\obj\\",
+        "projectPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Architecture.Test\\Architecture.Test.csproj",
+        "packagesPath": "C:\\Users\\Soheil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Architecture.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\S.Hesari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Soheil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,20 +108,20 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Application\\Application.csproj"
+              "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Application\\Application.csproj"
               },
-              "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Domain\\Domain.csproj"
+              "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Infrastructure\\Infrastructure.csproj"
               },
-              "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Presentation\\Presentation.csproj": {
-                "projectPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Presentation\\Presentation.csproj"
+              "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Presentation\\Presentation.csproj": {
+                "projectPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Presentation\\Presentation.csproj"
               },
-              "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Web\\Web.csproj": {
-                "projectPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Web\\Web.csproj"
+              "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Web\\Web.csproj": {
+                "projectPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Web\\Web.csproj"
               }
             }
           }
@@ -144,30 +167,45 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Domain\\Domain.csproj": {
+    "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\S.Hesari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Soheil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\S.Hesari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Soheil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -198,10 +236,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -210,21 +267,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\S.Hesari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Soheil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\S.Hesari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Soheil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -255,10 +312,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -267,21 +343,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Presentation\\Presentation.csproj": {
+    "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Presentation\\Presentation.csproj",
-        "packagesPath": "C:\\Users\\S.Hesari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Presentation\\obj\\",
+        "projectPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Presentation\\Presentation.csproj",
+        "packagesPath": "C:\\Users\\Soheil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\S.Hesari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Soheil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -312,10 +388,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -324,21 +419,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Web\\Web.csproj": {
+    "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Web\\Web.csproj",
-        "packagesPath": "C:\\Users\\S.Hesari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S.Hesari\\RiderProjects\\Clean--DDD\\Web\\obj\\",
+        "projectPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\Soheil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Soheil\\RiderProjects\\Clean--DDD\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\S.Hesari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Soheil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -369,10 +464,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.23, 6.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -381,7 +495,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
         }
       }
     }
