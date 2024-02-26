@@ -10,8 +10,7 @@ public class CreateUserCommandHandler
 
     public async Task<int> Handle(CreateUserCommand createUserCommand, CancellationToken cancellationToken)
     {
-        UserEntity userEntity;
-        var user = new UserEntity(createUserCommand.UserName, createUserCommand.Password);
+        var user = UserEntity.Create(createUserCommand.Username, createUserCommand.Password);
 
         return 0;
     }
